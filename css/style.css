@@ -1,0 +1,80 @@
+/*重置代码*/
+html,body{
+	/*view width,相当于100%
+	width:100vw;
+	mix-width:320px;
+	max-width: 640px;*/
+	height: 100%;
+}
+body{
+	font-family: "Microsoft Yahei";
+	background: #f0f0f0;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#666;
+}
+
+/*header*/
+header{
+   /*鼠标滑动时，header位置相对于窗口不变*/
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	top:0;
+	background: url(../image/bg.jpg);
+}
+ul.nav{
+	position: absolute;
+	background: url(../image/bg.jpg);
+	top:10vh;
+	width:100%;
+	height:50px;
+	z-index: -1;
+}
+ul.nav li a{
+	color:black;
+	text-align: center;
+	font-size: 12px;
+}
+ul.nav li span{
+	display: block;
+}
+/*显示列表的样式*/
+/*价格样式*/
+ul.product-list li div.price{
+   color:red;
+   font-size: 16px;
+}
+/*描述样式*/
+ul.product-list li div.desc{
+   color:black;
+   font-size: 12px;
+}
+/*评价样式*/
+ul.product-list li div.pingjia{
+    font-size: 14px;
+}
+
+
+/*加载图标的位置*/
+div.loading{
+	position: fixed;
+	top: 20px;
+	right:15px;
+	z-index: 2;
+}
+/*回到顶部的位置*/
+div.back-top{
+	position: fixed;
+	bottom: 110px;
+	right:25px;
+	z-index: 2;
+}
