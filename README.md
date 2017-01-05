@@ -1,1 +1,2 @@
 # JingdongDataLoading
+用到了bootstrap的栅格布局，奥森图标，移动端的zepto.js框架；主要实现的是数据加载，通过ajax调用文件中的json数据，将数据显示在页面中，通过绑定scroll事件实现的动态加载；另外实现了back-top回到顶部，是否显示导航的功能。
